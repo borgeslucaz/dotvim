@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 " Bundles {
 
     " Visual and Cosmetics {
+        Plug 'aradunovic/perun.vim'
         Plug 'flazz/vim-colorschemes'
         Plug 'oblitum/rainbow'
         Plug 'gorodinskiy/vim-coloresque'
@@ -66,6 +67,10 @@ call plug#begin('~/.vim/plugged')
     " TypeScript/Angular {
         Plug 'Quramy/vim-js-pretty-template', { 'for': 'typescript' }
         Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
+    " }
+
+    " GOLANG {
+        Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
     " }
 
     " HTML {
